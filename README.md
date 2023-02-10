@@ -1,4 +1,4 @@
-# song_popularity_prediction
+# Song Popularity Prediction
 
 Predicción de la popularidad de una canción utilizando características de audio de Spotify Data.
 
@@ -7,7 +7,6 @@ Las características de las canciones se extraerán de la [API de Spotify](https
 Para el análisis, se identificarán características comunes entre las canciones más populares que pueden ser la entrada para predecir la popularidad de una canción
 
 
-```
 ### Cuenta  Spotify
 
 Desde mi cuenta de Spotify he registrado una aplización para poder utilizar su API web (https://developer.spotify.com/documentation/general/guides/app-settings/):
@@ -19,7 +18,7 @@ El fichero *settings.env* no se ha se ha subido a github, pero lo encontrareis e
 Este fichero debe colocarse en la ruta raíz del proyecto y en la carpeta spotify_model_predict
 
 
-# Guía de ejecución
+### Guía de ejecución
 
 Para replicar el proyecto, ejecute los siguientes **jupyter notebooks** en el orden especificado.
 
@@ -52,4 +51,6 @@ Aplicación usuario desarollada en Streamlit
 
 Para ejecutar la aplicación deberá ejecutar el siguiente comando en su terminal desde la carpeta spotify_model_predict
 
-```streamlit run spotify_predict.py
+```
+streamlit run spotify_predict.py
+```
