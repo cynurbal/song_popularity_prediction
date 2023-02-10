@@ -23,6 +23,7 @@ Este fichero debe colocarse en la ruta raíz del proyecto y en la carpeta spotif
 Para replicar el proyecto, ejecute los siguientes **jupyter notebooks** en el orden especificado.
 
 0. **[Requisitos de instalación](https://github.com/cynurbal/song_popularity_prediction/blob/main/0-instalar.ipynb)**
+
 Instalacion de librerías necesarias para el proyecto (spotipy, streamlit)
 
 1. **[Extracción de canciones top](https://github.com/cynurbal/song_popularity_prediction/blob/main/1-extract_top_song_spotify.ipynb)**
